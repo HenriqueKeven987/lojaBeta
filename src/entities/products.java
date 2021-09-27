@@ -35,6 +35,18 @@ public class products {
 		return this.nome;
 	}
 	
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
+	
+	public double getPreco() {
+		return this.preco;
+	}
+	
+	public int getQuantidade() {
+		return quantidade;
+	}
+	
 	public double totalValue() {		
 		return preco * quantidade;
 	}
