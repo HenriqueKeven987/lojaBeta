@@ -64,5 +64,6 @@ public class products {
 		
 		return nome + ", $" + String.format("%.2f",preco) + ", Qtd " + quantidade + " Total: $" + String.format("%.2f",totalValue());
 	}
+
 	
 }
