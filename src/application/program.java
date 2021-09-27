@@ -26,6 +26,7 @@ public class program {
 		double preco = entrada.nextDouble();		
 		
 		products product = new products();
+		//teste git
 		product.setNomePreco(nome, preco);
 		
 		
