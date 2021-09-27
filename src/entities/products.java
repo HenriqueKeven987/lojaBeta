@@ -6,6 +6,7 @@ public class products {
 	private double preco;
 	private int quantidade;
 	
+	//nao tira esse construtor carai
 	public products () {
 		
 	}
