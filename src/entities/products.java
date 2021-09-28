@@ -2,7 +2,7 @@ package entities;
 
 public class products {
 	
-	private String nome;
+	String nome;
 	private double preco;
 	private int quantidade;
 	

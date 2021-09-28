@@ -3,6 +3,7 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
+import entities.ordem;
 import entities.products;
 
 public class program {
@@ -29,7 +30,9 @@ public class program {
 		product.setNomePreco(nome, preco);
 		
 		
+		
 		System.out.println("Dados do produto: "+ product);
+		
 		
 		System.out.print("entre com o numero de produtos a ser adicionado ao Estoque: ");
 		product.addStock(entrada.nextInt());
